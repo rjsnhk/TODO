@@ -39,7 +39,7 @@ Now, open your browser and go to **localhost:5173** to see the app in action! �
 - 🚀 **Vercel** – Deployment
 
 ## 📷 Screenshots
-![Todo App Screenshot](https://via.placeholder.com/800x400.png?text=To-Do+App+Screenshot)
+![Todo App Screenshot](https://ibb.co/xKtwHYdB)
 
 ## 🤝 Contributing
 Want to improve this project? Feel free to **fork** and submit a pull request! 🎯
