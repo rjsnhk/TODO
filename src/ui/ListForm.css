@@ -1,0 +1,100 @@
+/* Light Blue and Light Green Theme */
+.section-form {
+  padding: 6.4rem 0 9.4rem 0;
+  background-color: #e3f2fd; /* Light Blue Background */
+}
+
+.form-container {
+  max-width: 90rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  border: 2px solid #90caf9; /* Lighter Blue Border */
+  align-items: center;
+  transition: all 0.3s;
+  background-color: #ffffff; /* White Background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 5.6rem;
+  justify-items: start;
+  align-items: center;
+  padding: 6.2rem 0;
+  column-gap: 2.4rem;
+  row-gap: 3.6rem;
+}
+
+/* Text Input */
+.text-input {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #333; /* Darker Text for Readability */
+}
+
+.text-input input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.4rem;
+  font-family: inherit;
+  border: 2px solid #64b5f6; /* Light Blue Border */
+  background-color: #e3f2fd; /* Light Blue Background */
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 24, 36, 0.2);
+  color: #333;
+}
+
+.text-input input:focus {
+  outline: none;
+  border-color: #007bff; /* Bright Blue */
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.text-input input::placeholder {
+  color: #888;
+}
+
+/* Labels */
+.text-input label {
+  display: block;
+  padding-bottom: 0.8rem;
+  color: #007bff; /* Blue Label */
+}
+
+/* Checkbox */
+.is-important {
+  color: #007bff; /* Blue Text */
+  display: flex;
+  gap: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+/* Buttons */
+.form-btn {
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.form-btn button {
+  color: white;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-btn button:hover {
+  background-color: #388e3c; /* Darker Green */
+}

@@ -1,0 +1,21 @@
+.important {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a7c957;
+  width: 70%;
+  padding: 1rem 1rem;
+  border-radius: 50px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  color: #111409;
+  font-size: 1.4rem;
+}
+
+.edit-delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}

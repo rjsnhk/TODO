@@ -1,0 +1,184 @@
+.table-section {
+  background-color: #e6f1f8;
+}
+
+.table-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 9.4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  transition: all 0.5ms;
+}
+
+table {
+  max-width: 100rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  border-collapse: collapse;
+}
+
+th {
+  color: #333;
+}
+
+th,
+td {
+  padding: 2.4rem 2.4rem;
+  text-align: center;
+}
+
+td {
+  padding: 2.4rem 2.4rem;
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+  font-weight: 400;
+  color: #555;
+}
+
+thead tr {
+  background-color: #4da0cc;
+}
+
+thead th {
+  width: 5%;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.table-btns {
+  margin: 4.8rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.toast-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.toast-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.toast-text-container p {
+  height: 1.2rem;
+  font-weight: 400;
+}
+
+.toast-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.toast-btn-container button {
+  font-weight: 300;
+  padding: 0.8rem 1.6rem;
+}
+
+.toast-btn-confirm {
+  background-color: #861a1a;
+  color: #f2e6e6;
+  border: 1px solid #780000;
+}
+
+.toast-btn-confirm:hover {
+  background-color: #780000;
+  box-shadow: 0px 0px 1rem rgba(134, 26, 26, 0.5);
+}
+
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filter-container select,
+.filter-container input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-container input {
+  width: 200px;
+}
+/* Filter Container */
+.filter-container {
+  width: 100%;
+  max-width: 600px; /* Limits maximum width for large screens */
+  margin: 1rem auto; /* Centers the input */
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3f2fd; /* Light Blue Background */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Input */
+.filter-container input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border: 2px solid #64b5f6; /* Light Blue Border */
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  color: #333;
+}
+
+/* Placeholder Styling */
+.filter-container input::placeholder {
+  color: #888;
+}
+
+/* Focus Effect */
+.filter-container input:focus {
+  border-color: #007bff; /* Bright Blue */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .filter-container {
+    max-width: 100%;
+    padding: 0.6rem;
+  }
+
+  .filter-container input {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-container {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+
+  .filter-container input {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    width: 90%;
+  }
+}
